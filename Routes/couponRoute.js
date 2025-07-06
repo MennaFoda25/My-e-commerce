@@ -6,9 +6,9 @@ const {
   createCoupon,
   updateCoupon,
   deleteCoupon,
-} = require('../services/couponService');
+} = require('../controllers/couponService');
 
-const authService = require('../services/authService');
+const authService = require('../controllers/authService');
 
 const router = express.Router();
 

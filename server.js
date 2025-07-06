@@ -8,11 +8,11 @@ const compression = require('compression');
 
 dotenv.config({ path: 'config.env' });
 const ApiError = require('./utils/apiError');
-const globalError = require('./middlewares/errorMiddleware');
+const globalError = require('./middleWares/errorMiddleware');
 const dbConnection = require('./config/database');
 // Routes
 const mountRoutes = require('./Routes');
-const { webhookCheckout } = require('./services/orderService');
+const { webhookCheckout } = require('./controllers/orderService');
 
 // Connect with db
 dbConnection();
