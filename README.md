@@ -29,5 +29,4 @@ A RESTful API for a full-featured e-commerce backend built with Node.js, Express
 
 1. **Clone this repo**  
    ```bash
-   git clone https://github.com/MennaFoda25/nodejs-ecommerce-api-v1.git
-   cd nodejs-ecommerce-api-v1
+   git clone https://github.com/MennaFoda25/My-e-commerce.git
