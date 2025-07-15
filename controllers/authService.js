@@ -13,6 +13,7 @@ const User = require('../Models/userModel');
 // @desc    Signup
 // @route   GET /api/v1/auth/signup
 // @access  Public
+
 exports.signup = asyncHandler(async (req, res, next) => {
   // 1- Create user
   const user = await User.create({
@@ -30,6 +31,7 @@ exports.signup = asyncHandler(async (req, res, next) => {
 // @desc    Login
 // @route   GET /api/v1/auth/login
 // @access  Public
+
 exports.login = asyncHandler(async (req, res, next) => {
   // 1) check if password and email in the body (validation)
   // 2) check if user exist & check if password is correct
